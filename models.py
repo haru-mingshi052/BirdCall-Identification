@@ -2,6 +2,10 @@ import torch.nn as nn
 
 from bird_code import BIRD_CODE
 
+"""
+作成するモデル
+"""
+
 class Model(nn.Module):
     def __init__(self, model):
         super(Model, self).__init__()

@@ -3,6 +3,10 @@ import random
 import os
 import torch
 
+"""
+乱数を固定する関数
+"""
+
 def seed_everything(seed):
     random.seed(seed)
     np.random.seed(seed)

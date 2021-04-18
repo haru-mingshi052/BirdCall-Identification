@@ -31,6 +31,9 @@ parser.add_argument('--epochs', default = 100, type = int,
                     help = "何エポック学習するか")
 args = parser.parse_args()
 
+#=============================
+# split
+#=============================
 def split():
     df = pd.read_csv(args.data_folder + '/sample_df.csv')
 
@@ -39,6 +42,9 @@ def split():
 
     return train_test_split(df, target, random_state = 71, test_size = 0.2)
 
+#==============================
+# train
+#==============================
 def train():
     tr_x, val_x, tr_y, val_y = split()
 

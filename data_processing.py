@@ -11,6 +11,10 @@ from sklearn.preprocessing import minmax_scale
 
 import argparse
 
+"""
+データを準備する関数
+"""
+
 parser = argparse.ArgumentParser(
     description = "data preprocessing"
 )

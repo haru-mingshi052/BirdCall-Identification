@@ -1,3 +1,7 @@
+"""
+鳥の名前とその対応コード
+"""
+
 BIRD_CODE = {
     'aldfly': 0, 'ameavo': 1, 'amebit': 2, 'amecro': 3, 'amegfi': 4,
     'amekes': 5, 'amepip': 6, 'amered': 7, 'amerob': 8, 'amewig': 9,

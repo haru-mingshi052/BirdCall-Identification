@@ -3,6 +3,10 @@ from PIL import Image
 
 from torch.utils.data import Dataset
 
+"""
+pytorchで使うデータセット
+"""
+
 class BCIDataset(Dataset):
     def __init__(self, df, target, im_folder):
         self.df = df
